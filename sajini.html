@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mritasanjivani</title>
+    <style>
+        html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+.container {
+
+    width: 535px;
+    height: 630px;
+    background: #212a40;
+    padding: 20px;
+    border-radius: 20px;
+    height: 480px;
+
+}
+
+
+.question {
+
+  color: white;
+  background: #22ABCA;
+  padding: 20px;
+  border-radius: 16px;
+  margin: 10px;
+  text-align: center;
+  font-family: "IBMPlexSans-Medium";
+  display: inline-block;
+}
+
+.sub-head {
+
+  color: white;
+  font-family: "IBMPlexSans-Light";
+  text-align: center;
+  margin: 1em;
+  opacity: 0.6;
+}
+
+.resue-items {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+}
+
+
+.rescue-list {
+
+  color: black;
+  background: #E5F2F9;
+  padding: 20px;
+  border-radius: 16px;
+  margin: 10px;
+  text-align: center;
+  font-family: "IBMPlexSans-Medium";
+
+
+
+
+}
+.mritasanjivani{
+    font-weight: 600;
+}
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin: 40px 0px;
+
+        }
+        .app{
+            width: 1080px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+
+        }
+        body{
+            font-family: IBM Plex sans;
+            background: #09132C;
+            color: white;
+        }
+
+        .logo{
+            display: flex;
+        }
+
+        .logged{
+            display: flex;
+        }
+
+        .app-links{
+            display: flex;
+
+        }
+
+        .app-links *{
+            margin-right: 20px;
+        }
+
+       .app-body{
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+
+
+            width: 1080px;
+        }
+
+        .card{
+            background: white;
+    box-shadow: 0px 3px 13px #0000007d;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 20px 0px;
+    color: black;
+    width: 100%;
+
+        }
+
+        .stats-number{
+            font-size: 48px;
+            margin-top: 10px;
+        }
+
+        a{
+            display: block;
+            text-decoration: none;
+            color: white;
+        }
+
+        .help-body{
+            margin: 0 auto;
+         
+            width: 100%;
+            width: 1080px;
+        }
+
+        .user-name{
+            font-size: 48px;
+        }
+        .name-bar {
+            display: flex;
+            align-items: center;
+            height: 150px;
+        }
+
+        .name-bar *{
+            margin-right: 20px;
+        }
+
+        .priority-circle{
+            width: 20px;
+            height: 20px;
+            background: red;
+            border-radius: 100%;
+        }
+
+        .help-chat-section{
+            display: flex;
+        }
+
+        .help-image{
+            height: 540px;
+    padding-left: 22px;
+        }
+
+        .input-chat{
+            width: 97%;
+    background: #354055;
+    font-size: 18px;
+    border: none;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 9px;
+    color: white;
+    padding: 10px;
+    border: none;
+    outline: none;
+
+    
+        }
+
+        .mritasanjivani{
+    font-weight: 600;
+}
+
+
+
+.logged *{
+margin-right: 20px;
+}
+
+.logo * {
+margin-right: 10px;
+}
+
+    </style>
+</head>
+<body>
+        <div class="app">
+<header>
+
+    <div class="logo">
+        <div class="mritasanjivani">  Mritasanjivani</div>
+        <div> Alappuzha</div>
+    </div>
+    <div class="app-links">
+        <div>  Cases</div>
+    <div> Inventory</div>
+    <div> Teams</div>
+</div>
+<div class="logged">
+        <div> Logged in as </div>
+        <div>Raghav</div>
+</div>
+
+
+
+
+
+</div>
+</header>
+
+<div class="help-body">
+<div class="name-bar">
+<div class="user-name"> Sajini</div>
+<div class="priority-circle"></div>
+
+<div class="user-name"> High Priority</div>
+</div>
+<div class ="help-chat-section">
+    <div class="help-chat">
+<div id = "chat-container" class="container">
+
+        <div class="question">You are chatting with Sajini.
+    
+        </div>
+        <div class="question">She is a pregnant woman from Alapuzha.
+    
+        </div>
+    
+      
+    
+    <div id="rescue-items-container" class="resue-items">
+      
+  
+      </div>
+    
+     </div>
+     <input class="input-chat"type="text" name="" id="chat-input">
+    </div>
+
+     <img class="help-image" src ="help.png">
+    </div>
+
+   
+</body>
+
+<script>
+  window.addEventListener("keydown", function(event) {
+
+
+  if (event.keyCode == 13) {
+     console.log("yaay")
+     let el = document.createElement("span");
+     el.classList.add("rescue-list")
+  
+
+  var message = document.getElementById("chat-input").value;
+//   console.log(document.getElementById("chat-input").value)
+  console.log(message)
+  el.textContent = message;
+
+  document.getElementById("rescue-items-container").appendChild(el);
+    }
+
+
+}, true);
+</script>
+</html>
